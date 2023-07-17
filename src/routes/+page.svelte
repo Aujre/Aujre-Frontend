@@ -8,7 +8,7 @@
 	const successToast: ToastSettings = {
 		message:
 			"Congratulations! 🎉 You're now part of the Aujre waitlist. Get ready to embark on an exciting e-commerce journey with us. We'll keep you updated on the latest developments and be the first to notify you when Aujre launches. Thank you for joining!",
-		background: 'bg-error-500',
+		background: 'bg-success-500',
 		classes: 'text-white',
 		timeout: 5000
 	};
@@ -16,6 +16,13 @@
 	$: {
 		if (form?.success) {
 			toastStore.trigger(successToast);
+		} else if (form?.server) {
+			toastStore.trigger({
+				message: 'Something went wrong. Please try again.',
+				background: 'bg-error-500',
+				classes: 'text-white',
+				timeout: 5000
+			});
 		}
 	}
 </script>

@@ -37,7 +37,6 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/manrope": "^5.0.5",
-		"@mailchimp/mailchimp_marketing": "^3.0.80",
 		"axios": "^1.4.0"
 	}
 }

@@ -1,5 +1,5 @@
 import { fail } from '@sveltejs/kit';
-import { subscribe } from '../lib/server/mailchimp.js';
+import { subscribe } from '$lib/server/mailerlite.js';
 
 export const actions = {
 	'join-waitlist': async ({ request }) => {
