@@ -28,11 +28,40 @@
 </script>
 
 <svelte:head>
-	<title>Aujre Waitlist: Effortlessly Build and Launch Your Online Store with Notion</title>
+	<title>Aujre Waitlist | Effortlessly Build and Launch Your Online Store with Notion</title>
 	<meta
 		name="description"
 		content="Join the Aujre waitlist for exclusive access to effortlessly build and launch your dream online store using Notion. Be the first to know when Aujre, the powerful e-commerce solution, launches and transform your business."
 	/>
+
+	<!--
+		OG and Twitter meta tags
+	-->
+	<meta
+		property="og:title"
+		content="Aujre Waitlist | Effortlessly Build and Launch Your Online Store with Notion"
+	/>
+	<meta
+		property="og:description"
+		content="Join the Aujre waitlist for exclusive access to effortlessly build and launch your dream online store using Notion. Be the first to know when Aujre, the powerful e-commerce solution, launches and transform your business."
+	/>
+	<meta property="og:image" content="https://aujre.sheyzi.tech/social-banner.png" />
+	<meta property="og:url" content="https://aujre.sheyzi.tech" />
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Aujre" />
+
+	<meta
+		name="twitter:title"
+		content="Aujre Waitlist | Effortlessly Build and Launch Your Online Store with Notion"
+	/>
+	<meta
+		name="twitter:description"
+		content="Join the Aujre waitlist for exclusive access to effortlessly build and launch your dream online store using Notion. Be the first to know when Aujre, the powerful e-commerce solution, launches and transform your business."
+	/>
+	<meta name="twitter:image" content="https://aujre.sheyzi.tech/social-banner.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@sheyzi" />
+	<meta name="twitter:creator" content="@sheyzi" />
 </svelte:head>
 
 <Toast />
