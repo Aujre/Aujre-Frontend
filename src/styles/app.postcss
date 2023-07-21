@@ -1,6 +1,18 @@
+@tailwind components;
+
 /*place global styles here */
 html,
 body {
 	@apply h-full;
 	@apply bg-surface-400-500-token;
+}
+
+@layer components {
+	.form-input {
+		@apply w-full rounded-[5px] border border-gray-200;
+	}
+
+	.form-input:focus {
+		@apply ring-0 outline-none border-primary-500;
+	}
 }

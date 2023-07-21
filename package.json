@@ -37,6 +37,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/manrope": "^5.0.5",
-		"axios": "^1.4.0"
+		"axios": "^1.4.0",
+		"iconify-icon": "^1.0.8"
 	}
 }
