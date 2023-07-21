@@ -3,20 +3,7 @@
 	import '@skeletonlabs/skeleton/styles/skeleton.css';
 	import '../styles/app.postcss';
 
-	import Navbar from '$lib/components/Navbar.svelte';
-	import { AppShell } from '@skeletonlabs/skeleton';
+	import 'iconify-icon';
 </script>
 
-<AppShell>
-	<svelte:fragment slot="header">
-		<Navbar />
-	</svelte:fragment>
-	<!-- (sidebarLeft) -->
-	<!-- (sidebarRight) -->
-	<!-- (pageHeader) -->
-	<!-- Router Slot -->
-	<slot />
-	<!-- ---- / ---- -->
-	<!-- (pageFooter) -->
-	<!-- (footer) -->
-</AppShell>
+<slot />
