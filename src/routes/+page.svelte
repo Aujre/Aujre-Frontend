@@ -28,10 +28,10 @@
 </script>
 
 <svelte:head>
-	<title>Aujre Waitlist | Effortlessly Build and Launch Your Online Store with Notion</title>
+	<title>Aujre Waitlist | Get Ready to Earn</title>
 	<meta
 		name="description"
-		content="Join the Aujre waitlist for exclusive access to effortlessly build and launch your dream online store using Notion. Be the first to know when Aujre, the powerful e-commerce solution, launches and transform your business."
+		content="Aujre lets you earn by sharing cool stuff on your WhatsApp status. Simple, right? Be among the first to know when we kick off. Sign up now, and let's start earning together!"
 	/>
 
 	<!--
@@ -39,26 +39,26 @@
 	-->
 	<meta
 		property="og:title"
-		content="Aujre Waitlist | Effortlessly Build and Launch Your Online Store with Notion"
+		content="Aujre Waitlist | Get Ready to Earn"
 	/>
 	<meta
 		property="og:description"
-		content="Join the Aujre waitlist for exclusive access to effortlessly build and launch your dream online store using Notion. Be the first to know when Aujre, the powerful e-commerce solution, launches and transform your business."
+		content="Aujre lets you earn by sharing cool stuff on your WhatsApp status. Simple, right? Be among the first to know when we kick off. Sign up now, and let's start earning together!"
 	/>
-	<meta property="og:image" content="https://aujre.sheyzi.tech/social-banner.png" />
-	<meta property="og:url" content="https://aujre.sheyzi.tech" />
+	<meta property="og:image" content="https://aujre.com/social-banner.png" />
+	<meta property="og:url" content="https://aujre.com" />
 	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="Aujre" />
 
 	<meta
 		name="twitter:title"
-		content="Aujre Waitlist | Effortlessly Build and Launch Your Online Store with Notion"
+		content="Aujre Waitlist | Get Ready to Earn"
 	/>
 	<meta
 		name="twitter:description"
-		content="Join the Aujre waitlist for exclusive access to effortlessly build and launch your dream online store using Notion. Be the first to know when Aujre, the powerful e-commerce solution, launches and transform your business."
+		content="Aujre lets you earn by sharing cool stuff on your WhatsApp status. Simple, right? Be among the first to know when we kick off. Sign up now, and let's start earning together!"
 	/>
-	<meta name="twitter:image" content="https://aujre.sheyzi.tech/social-banner.png" />
+	<meta name="twitter:image" content="https://aujre.com/social-banner.png" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@sheyzi" />
 	<meta name="twitter:creator" content="@sheyzi" />
@@ -74,7 +74,7 @@
 			class="text-3xl lg:text-5xl font-bold text-center md:text-left"
 			style="line-height: normal;"
 		>
-			Build Your Online Store Effortlessly with aujre
+			Get Ready to Earn: Aujre's Waitlist is Open!
 		</h1>
 		<p
 			class="text-primary-500 bg-primary-300 w-fit px-[3.19rem] py-[0.19rem] rounded-[2.5rem] mt-[0.87rem] mb-[1.44rem]"
@@ -82,10 +82,7 @@
 			Coming soon
 		</p>
 		<p class="mb-[2.44rem] text-center md:text-left">
-			Transform your business and unlock the power of e-commerce. Aujre simplifies the process of
-			creating your own online store using Notion. Join our waitlist to be the first in line for
-			this powerful e-commerce solution and experience the simplicity, flexibility, and success it
-			brings to your business.
+			Aujre lets you earn by sharing cool stuff on your WhatsApp status. Simple, right? Be among the first to know when we kick off. Sign up now, and let's start earning together!
 		</p>
 		<form method="POST" action="?/join-waitlist" class="flex gap-[0.7rem]">
 			<div>
